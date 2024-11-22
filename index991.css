@@ -190,4 +190,12 @@
   .swiper__arrow.arrow--next {
     margin-left: 20px;
   }
+
+  .questions__columns {
+    flex-direction: column;
+  }
+
+  .questions__col.mod--1 {
+    margin-bottom: 64px;
+  }
 }
