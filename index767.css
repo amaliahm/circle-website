@@ -1,0 +1,9 @@
+@media screen and (max-width: 767px) {
+  .swiper-slide {
+    width: 100%;
+  }
+
+  .swiper-pagination-bullets {
+    display: flex;
+  }
+}
