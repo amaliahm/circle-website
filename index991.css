@@ -149,4 +149,18 @@
   .steps__columns {
     flex-direction: column-reverse;
   }
+
+  .courses__columns {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .courses__col {
+    flex: 0 auto;
+    width: 50%;
+  }
+
+  .courses__col.mod--3 {
+    margin-top: 24px;
+  }
 }

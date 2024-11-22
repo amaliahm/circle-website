@@ -6,4 +6,14 @@
   .swiper-pagination-bullets {
     display: flex;
   }
+
+  .courses__col {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .courses__col.mod--3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
