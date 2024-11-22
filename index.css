@@ -1,3 +1,6 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /* elements */
 
 :root {
@@ -11,9 +14,10 @@
 body {
   color: #333;
   background-color: #f8efe5;
-  font-family: sans-serif;
+  font-family: "Courier Prime", monospace;
   font-size: 18px;
   line-height: 20px;
+  margin: 0;
 }
 
 h1 {
@@ -51,7 +55,7 @@ h1, h2 {
 }
 
 h1, h2, h3 {
-  font-family: failson-pro;
+  font-family: "Courier Prime", monospace;
 }
 
 h1, h2, h3, h4 {
@@ -202,12 +206,15 @@ ul {
 }
 
 .section.mod--header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
   z-index: 90;
-  width: 100%;
+  width: 90%;
   margin-bottom: 120px;
   padding-top: 40px;
   padding-bottom: 0;
-  position: absolute;
   inset: 0% 0% auto;
 }
 
@@ -273,7 +280,7 @@ ul {
   min-height: 70px;
   padding-top: 25px;
   padding-bottom: 25px;
-  font-family: stratos;
+  font-family: "Courier Prime", monospace;
   text-decoration: none;
   transition-duration: .5s;
   display: flex;
@@ -352,7 +359,6 @@ ul {
 
 .wrap-hide {
   overflow: hidden;
-  /* overflow: visible; */
 }
 
 .hero__heading.mod--1 {
@@ -367,8 +373,8 @@ ul {
 
 .subheading.mod--hero {
   opacity: 1;
-  max-width: 400px;
-  margin-bottom: 48px;
+  max-width: 500px;
+  margin-bottom: 80px;
 }
 
 .btn.mod--hero {
@@ -504,7 +510,7 @@ ul {
   color: var(--black);
   justify-content: center;
   align-items: center;
-  font-family: filson-pro;
+  font-family: "Courier Prime", monospace;
   font-size: 60px;
   font-weight: 700;
   display: flex;
