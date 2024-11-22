@@ -163,4 +163,31 @@
   .courses__col.mod--3 {
     margin-top: 24px;
   }
+
+  .swiper.swiper--reviews {
+    width: auto;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+
+  .swiper-slide.mod--reviews {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .reviews__dash {
+    display: none;
+  }
+
+  .swiper__nav {
+    display: none;
+  }
+
+  .swiper__arrow.arrow--prev {
+    margin-right: 20px;
+  }
+
+  .swiper__arrow.arrow--next {
+    margin-left: 20px;
+  }
 }

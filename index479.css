@@ -2,4 +2,13 @@
   .swiper-slide {
     width: 100%;
   }
+
+  .swiper-slide.mod--reviews {
+    width: auto;
+  }
+  
+
+  .swiper__nav {
+    display: none;
+  }
 }

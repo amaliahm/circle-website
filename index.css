@@ -1011,6 +1011,179 @@ form {
   height: 20px;
 }
 
+.section-slide.mod--1 {
+  z-index: 1;
+}
+
+.section.mod--reviews {
+  z-index: 1;
+  background-color: #f8efe5;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+.heading--center {
+  text-align: center;
+}
+
+.swiper.swiper--reviews {
+  overflow: visible;
+}
+
+.swiper-slide.mod--reviews {
+  text-align: center;
+  flex: 1;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.reviews__block {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.reviews__ava {
+  z-index: 0;
+  position: relative;
+}
+
+.reviews__ava-wrap {
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  min-height: 130px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: relative;
+}
+
+.reviews__ava-spot {
+  z-index: 1;
+  position: absolute;
+  inset: auto auto 4px 18px;
+}
+
+.reviews__ava-spot.mod--1 {
+  bottom: -5px;
+}
+
+.reviews__ava-spot.mod--2 {
+  left: auto;
+  right: 2px;
+}
+
+.reviews__ava-spot.mod--3 {
+  inset: 0 12px auto auto;
+}
+
+.reviews__ava-dot {
+  z-index: 1;
+  background-color: var(--black);
+  border-radius: 100px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  inset: 15px 3px auto auto;
+}
+
+.reviews__ava-dot.mod--2 {
+  top: 23px;
+  left: -5px;
+  right: auto;
+}
+
+.reviews__ava-dot.mod--3 {
+  top: 33px;
+  left: -24px;
+  right: auto;
+}
+
+.reviews__ava-circle {
+  z-index: 1;
+  border: 2px solid #000;
+  border-radius: 100px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+.reviews__ava-circle.mod--2 {
+  width: 28px;
+  height: 28px;
+  top: 10px;
+  left: auto;
+  right: 0;
+}
+
+.reviews__ava-circle.mod--3 {
+  width: 20px;
+  height: 20px;
+  inset: auto -1px 0 auto;
+}
+
+.reviews__p {
+  color: #1b1b1bb3;
+  line-height: 1.9em;
+}
+
+.reviews__dash {
+  opacity: .5;
+  background-image: url('./assets/dash-vertical.svg');
+  background-position: 50% 100%;
+  background-repeat: repeat-y;
+  background-size: auto;
+  width: 2px;
+  height: 136px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.swiper__nav {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.swiper__nav.mod--reviews {
+  display: none;
+}
+
+.swiper__arrow {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  transition: all .2s;
+  display: flex;
+}
+
+.swiper__arrow.arrow--prev {
+  margin-right: 32px;
+  transform: rotate(180deg);
+}
+
+.swiper__arrow-ico {
+  background-image: url('./assets/ico_arrow-right.svg');
+  background-position: 50% 55%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 42px;
+  height: 42px;
+  transition: all .2s;
+}
+
 
 
 
