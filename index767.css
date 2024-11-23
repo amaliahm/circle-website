@@ -34,4 +34,77 @@
     margin-top: 48px;
     display: flex;
   }
+  .footer__columns.mod--top {
+    margin-bottom: 24px;
+  }
+
+  .footer__col.mod--2 {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .footer__dash {
+    background-image: url('./assets/dash-goriz.svg');
+    background-position: 50%;
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 2px;
+    margin: 24px 0;
+    display: block;
+  }
+
+  .footer__dash.mod--1 {
+    display: none;
+  }
+
+  .footer__dash.mod--3 {
+    display: block;
+  }
+
+  .footer__list {
+    column-count: 0;
+    flex-wrap: wrap;
+    flex: 1;
+    column-gap: 0;
+    max-width: 500px;
+    display: flex;
+  }
+
+  .footer__list-item {
+    width: 50%;
+  }
+
+  .footer__drop {
+    width: 100%;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .footer__drop-arrow {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    display: block;
+    position: absolute;
+    top: 9px;
+    right: 0;
+  }
+
+  .footer__columns.mod--bottom {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .footer__col.mod--copyright {
+    justify-content: center;
+  }
+
+  .footer__col.mod--2-copy {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .footer__copyright-logo {
+    width: 30px;
+  }
 }

@@ -11,4 +11,40 @@
   .swiper__nav {
     display: none;
   }
+
+  .footer__list {
+    margin-top: 0;
+  }
+
+  .footer__drop {
+    width: 100%;
+    display: block;
+  }
+
+  .footer__drop-btn {
+    text-transform: uppercase;
+    width: 100%;
+    padding: 8px 0;
+    display: block;
+  }
+
+  .footer__drop-arrow {
+    background-image: url('./assets/ico_arrow-drop.svg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .footer__list-item.mod--contact {
+    opacity: .7;
+    width: 100%;
+  }
+
+  .footer__copyright {
+    max-width: 160px;
+  }
+
+  .footer__social {
+    justify-content: space-between;
+  }
 }
